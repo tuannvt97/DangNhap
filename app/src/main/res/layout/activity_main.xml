@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBlueSky"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_margin="10dp"
+        android:background="@drawable/phong"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/lock"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/edtEmail"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/smartlock"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <EditText
+            android:id="@+id/edtPassword"
+            android:inputType="textPassword"
+            android:hint="Pass world"
+            android:layout_width="300dp"
+            android:maxLines="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnLogin"
+        android:text="@string/loggin"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlue"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

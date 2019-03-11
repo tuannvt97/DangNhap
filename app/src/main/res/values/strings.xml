@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DangNhap</string>
+    <string name="loggin">Đăng nhập</string>
+    <string name="logginsuccess">Đăng nhập thành công</string>
+    <string name="logginerror">Tài khoản hoặc mật khẩu sai</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="logout">Đăng xuất</string>
+
+</resources>
